@@ -1,0 +1,54 @@
+$blue: #062F4F;
+$red: #B82601;
+$purple: #813772;
+$fontColor: white;
+$background: rgba(123, 117, 112,0.7);
+
+#nav{
+    position: fixed;
+    background-color: $blue;
+    width: 100vw;
+    height: 40px;
+    color: $fontColor;
+    a{
+        color: $fontColor;
+    }
+}
+
+#icons{
+    position: absolute;
+    left: 0;
+    top: 0;
+    img{
+        height: 25px;
+        width: 25px;
+        margin: 8px;
+    }
+}
+
+#navlinks{
+    position: absolute;
+    right: 20px;
+    top: 12px;
+    display: flex;
+    width: 150px;
+    justify-content: space-around;
+    font-size: 10px;
+    a{
+        width: 50px;
+    }
+    div{
+        border-bottom: 1px solid white;
+        width: 0;
+        // height: 2px;
+    }
+    div:hover{
+        width: 30px;
+        transition: 1s;
+        // border-bottom: 1px solid white;
+    }
+    p{
+        width: 30px;
+        margin: 0;
+    }
+}
